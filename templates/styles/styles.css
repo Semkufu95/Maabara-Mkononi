@@ -1,0 +1,14 @@
+header {
+    color: cadetblue;
+    height: 70px;
+    width: 100%;
+}
+
+footer {
+    background-color: cornflowerblue;
+    height: 70px;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    text-align: center;
+}
