@@ -5,7 +5,7 @@ Main flask application
 
 from flask import Flask, render_template
 from flask_mysqldb import MySQL
-from config import Config
+from config import Config, mysql
 
 from routes.auth import auth_blueprint
 from routes.tests import tests_blueprint

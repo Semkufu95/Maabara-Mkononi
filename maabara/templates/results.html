@@ -1,0 +1,6 @@
+<h2>Your Test Results</h2>
+<ul>
+    {% for result in results %}
+        <li>{{ result['test_type'] }} - {{ result['result'] }} on {{ result['result_date'] }}</li>
+    {% endfor %}
+</ul>

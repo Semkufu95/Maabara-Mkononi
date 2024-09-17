@@ -2,8 +2,9 @@
 Test Booking and results management routes
 '''
 
-from flask import Blueprint, render_template, requests, redirect, flash
-from app import mysql
+from flask import Blueprint, render_template, request, redirect, flash
+import requests
+from config import mysql
 
 tests_blueprint = Blueprint('tests', __name__)
 

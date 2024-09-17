@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maabara Mkononi</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header class="header-section">
+        <nav>
+            <h1>Maabara Mkononi</h1>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#Operation">How it works</a></li>
+                <li><a href="#About">About Us</a></li>
+                <li><a href="#Team">Our Team</a></li>
+                <li><a href="#contacts">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="header-content">
+            <h2>Huduma za Maabara Kiganjani</h2>
+            <p>Pata huduma za Maabara kupitia simu yako ukiwa nyumbani</p>
+            <a href="#booking" class="cta-btn">Book a Lab Test</a>
+        </div>
+    </header>
+
+    <section id="services" class="service-section">
+        <h2>Our Services</h2>
+        <div class="services-container">
+            <div class="service">
+                <h3>Home Sample Collection</h3>
+                <p>We bring the lab to your doorstep with convenient and reliable sample collection services.</p>
+            </div>
+            <div class="service">
+                <h3>Online Test Results</h3>
+                <p>Access your lab Results anytime and anywhere through our secure platform.</p>
+            </div>
+            <div class="service">
+                <h3>Teleconsultation with Lab Experts</h3>
+                <p>Get expert advice from lab technicians via online consultation.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="operation" class="operation-section">
+        <h2>How It Works</h2>
+        <div class="steps-container">
+            <div class="steps">
+                <h3>Step 1: Book a Test</h3>
+                <p>Choose Your Test and book online</p>
+            </div>
+            <div class="steps">
+                <h3>Step 2: Sample Collection</h3>
+                <p>Our team collects sample from your Home</p>
+            </div>
+            <div class="steps">
+                <h3>Step 3: View Results Online</h3>
+                <p>Receive your Results directly in your account</p>
+            </div>
+            <div class="steps">
+                <h3>Step 4: Consult with Experts</h3>
+                <p>Discuss your results with qualified laboratory technicians</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials-section">
+        <h3>What Our Satisfied Customers Say</h3>
+        <div class="testimonial">
+            <p>Maabara Mkononi made it so easy for us to have a whole family of 13 people get check up, and On time diagnosis for Hepatitis B</p>
+            <span>Paschary Ngata, Iringa</span>
+        </div>
+        <div class="testimonial">
+            <p>The Convenience of at home testing is unmatched. Highly recommended</p>
+            <span>Japhet Kaseba, Kihesa-Iringa</span>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer-section">
+        <h2>Contact Us</h2>
+        <p>Email: support@maabaramkononi.com</p>
+        <p>Phone: +255 786 744 401 / +255 774 744 401</p>
+        <div class="social">
+            <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">X</a>
+        </div>
+    </footer>
+</body>
+</html>

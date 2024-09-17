@@ -1,3 +1,3 @@
-This directory contains files for the configuration and codes to set the BackEnd of maabara mkononi.
+Maabara Mkononi is a project inspired by my initial profession which was a medical Laboratory technologist.
 
-None of the files should be deleted.
+I decided to create is as my portfolio project as a basic MVP but, I will leave it for future scalability.

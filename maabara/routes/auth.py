@@ -1,6 +1,6 @@
 from flask import Blueprint, render_template, request, redirect, flash
 from werkzeug.security import generate_password_hash, check_password_hash
-from app import mysql
+from config import mysql
 
 auth_blueprint = Blueprint('auth', __name__)
 

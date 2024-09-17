@@ -4,6 +4,9 @@ This file stores the configuration of the whole app
 """
 
 import os
+from flask_mysqldb import MySQL
+
+mysql = MySQL()
 
 
 class Config:
