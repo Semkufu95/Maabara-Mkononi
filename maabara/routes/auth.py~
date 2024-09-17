@@ -1,0 +1,25 @@
+from flask import Blueprint, render_template, request, redirect, flash
+from werkzeug.security import generate_password_hash, check_password_hash
+from app import mysql
+
+auth_blueprint = Blueprint('auth', __name__)
+
+@auth_blueprint.route('/register', methods=['GET', 'POST'])
+def register():
+    '''
+    Register a new user
+    '''
+    if request.method == 'POST':
+        name = request.form['name']
+        email = request.form['email']
+        password = generate_password_hash(request.form['password'])
+
+        cursor = mysql.connection,cursor()
+        cursor.execute("INSERT INTO users(name, email, password) VALUES(%s, %s, %s)", (name, email, password))
+        mysql.connection.commit()
+        cursor.close()
+
+        flash("Registration successful!")
+        return redirect('/login')
+
+    return render_template('registration.html')
